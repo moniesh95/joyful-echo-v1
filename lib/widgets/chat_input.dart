@@ -69,7 +69,7 @@ class _ChatInputState extends State<ChatInput> {
               child: TextField(
                 controller: _controller,
                 focusNode: _focusNode,
-                enabled: widget.enabled,
+                enabled: true,
                 maxLines: 5,
                 minLines: 1,
                 textCapitalization: TextCapitalization.sentences,
